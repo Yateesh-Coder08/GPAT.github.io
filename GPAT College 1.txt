@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPAT Accepting Colleges In India</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        /* Custom scrollbar for the table */
+        .table-container::-webkit-scrollbar { height: 8px; }
+        .table-container::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 4px; }
+        .table-container::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
+        .table-container::-webkit-scrollbar-thumb:hover { background: #a8a8a8; }
+        
+        /* Make table rows clickable */
+        #collegesTable tbody tr { cursor: pointer; }
+        
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+
+        /* Smooth View Transitions */
+        .fade-in { animation: fadeIn 0.4s ease-out forwards; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased p-4 md:p-8">
+
+    <div class="max-w-7xl mx-auto">
+        
+        <!-- VIEW 1: LANDING PAGE & ESSAY -->
+        <div id="landingView" class="fade-in space-y-8">
+            <div class="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-slate-200 mt-4">
+                
+                <div class="text-center mb-10">
+                    <span class="inline-block py-1 px-3 rounded-full bg-indigo-50 text-indigo-700 text-sm font-semibold tracking-wide uppercase mb-3">Comprehensive Guide</span>
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">What is GPAT?</h1>
+                    <p class="text-lg text-slate-500">Everything you need to know about the Graduate Pharmacy Aptitude Test.</p>
+                </div>
+
+                <div class="prose prose-slate max-w-none text-slate-700 space-y-6 leading-relaxed">
+                    <p class="text-lg">
+                        The <strong>Graduate Pharmacy Aptitude Test (GPAT)</strong> is a highly competitive, national-level entrance examination conducted in India. It serves as the primary gateway for pharmacy graduates (B.Pharm) seeking admission into elite Master of Pharmacy (M.Pharm) programs across the country. 
+                    </p>
+
+                    <h3 class="text-2xl font-bold text-slate-900 mt-8 mb-3">Who Conducts GPAT?</h3>
+                    <p>
+                        Previously managed by the National Testing Agency (NTA), the responsibility of conducting GPAT has been shifted to the <strong>National Board of Examinations in Medical Sciences (NBEMS)</strong>. This board ensures a standardized, fair, and rigorous testing environment through a Computer-Based Test (CBT) format.
+                    </p>
+
+                    <h3 class="text-2xl font-bold text-slate-900 mt-8 mb-3">Why is GPAT So Important?</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><strong>Gateway to Premier Institutes:</strong> A good GPAT score is mandatory for admission into top-tier institutions like the National Institutes of Pharmaceutical Education and Research (NIPERs), Jamia Hamdard, ICT Mumbai, and BITS Pilani.</li>
+                        <li><strong>AICTE PG Scholarship (The Stipend):</strong> Perhaps the most significant advantage of qualifying GPAT is the financial aid. GPAT-qualified candidates admitted to AICTE-approved institutions are eligible for a monthly stipend of <strong>₹12,400</strong> (totaling nearly ₹3 Lakhs over two years). This stipend effectively neutralizes the tuition fees for many colleges, and in some cases, creates a financial surplus for the student.</li>
+                        <li><strong>Ph.D. Opportunities:</strong> A valid GPAT score is also highly respected when applying for doctoral (Ph.D.) programs and various Junior Research Fellowship (JRF) positions funded by the CSIR.</li>
+                    </ul>
+
+                    <h3 class="text-2xl font-bold text-slate-900 mt-8 mb-3">Exam Pattern & Syllabus</h3>
+                    <p>
+                        The GPAT exam evaluates a candidate's grasp of core pharmaceutical sciences. The syllabus broadly encompasses:
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                            <h4 class="font-bold text-indigo-700">Pharmaceutics & Allied Subjects</h4>
+                            <p class="text-sm mt-1">Formulation, drug delivery systems, physical pharmacy, and biopharmaceutics.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                            <h4 class="font-bold text-indigo-700">Pharmacology</h4>
+                            <p class="text-sm mt-1">Mechanisms of drug action, therapeutic uses, and adverse effects.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                            <h4 class="font-bold text-indigo-700">Pharmaceutical Chemistry</h4>
+                            <p class="text-sm mt-1">Organic chemistry, medicinal chemistry, and structural analysis.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                            <h4 class="font-bold text-indigo-700">Pharmacognosy</h4>
+                            <p class="text-sm mt-1">Study of drugs derived from natural sources, plants, and traditional medicine.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-slate-900 mt-8 mb-3">Career Prospects Post M.Pharm</h3>
+                    <p>
+                        Completing an M.Pharm from a top institution opens doors to advanced roles in Research and Development (R&D), Regulatory Affairs (ensuring drug compliance with FDA/CDSCO rules), Clinical Trials, Quality Assurance (QA/QC), and academia.
+                    </p>
+                </div>
+
+                <div class="mt-12 flex flex-col sm:flex-row gap-4 justify-center pb-4">
+                    <button id="goToRankingsBtn" class="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-indigo-600 rounded-full overflow-hidden shadow-xl hover:shadow-2xl hover:bg-indigo-700 transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-indigo-300">
+                        <span class="mr-2">Ranking of Top 100+ GPAT colleges in india</span>
+                        <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </button>
+                    <button id="goToWorldRankingsBtn" class="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-emerald-600 rounded-full overflow-hidden shadow-xl hover:shadow-2xl hover:bg-emerald-700 transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-emerald-300">
+                        <span class="mr-2">Ranking of Top 50 Mpharm Colleges in the world</span>
+                        <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- VIEW 2: RANKINGS TABLE (Initially Hidden) -->
+        <div id="rankingsView" class="hidden fade-in space-y-8">
+            
+            <header class="relative text-center space-y-4 pt-8 md:pt-4">
+                <!-- Back Button -->
+                <button id="backToHomeBtn" class="absolute left-0 top-4 md:top-0 flex items-center text-slate-500 hover:text-indigo-600 font-medium transition-colors bg-white px-4 py-2 rounded-lg border border-slate-200 shadow-sm hover:shadow">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+                    Back to GPAT Guide
+                </button>
+                
+                <h1 class="text-3xl md:text-4xl font-bold text-slate-900 pt-14 md:pt-0">Top GPAT Colleges In India</h1>
+                <p class="text-slate-600 max-w-2xl mx-auto">Explore top institutions (including NIPERs), view detailed fee structures, and see how the GPAT stipend offsets your education costs.</p>
+            </header>
+
+            <div class="relative max-w-xl mx-auto">
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <svg class="h-5 w-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </div>
+                <input type="text" id="searchInput" 
+                       class="block w-full pl-10 pr-3 py-3 border border-slate-300 rounded-xl leading-5 bg-white placeholder-slate-500 focus:outline-none focus:placeholder-slate-400 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm transition-shadow shadow-sm" 
+                       placeholder="Search by college name, city, state, or rank...">
+            </div>
+
+            <div class="max-w-4xl mx-auto mb-6">
+                <h3 class="text-sm font-semibold text-slate-500 mb-3 text-center uppercase tracking-wider">Filter by M.Pharm Specialization</h3>
+                <div class="flex flex-wrap justify-center gap-2 md:gap-3">
+                    <label class="cursor-pointer">
+                        <input type="radio" name="specialization" value="all" class="peer sr-only" checked>
+                        <span class="px-4 py-2 rounded-full text-xs md:text-sm font-medium bg-white border border-slate-300 text-slate-600 peer-checked:bg-indigo-600 peer-checked:text-white peer-checked:border-indigo-600 hover:bg-slate-50 transition-colors shadow-sm block">All Specializations</span>
+                    </label>
+                    <label class="cursor-pointer">
+                        <input type="radio" name="specialization" value="regulatory-affairs" class="peer sr-only">
+                        <span class="px-4 py-2 rounded-full text-xs md:text-sm font-medium bg-white border border-slate-300 text-slate-600 peer-checked:bg-indigo-600 peer-checked:text-white peer-checked:border-indigo-600 hover:bg-slate-50 transition-colors shadow-sm block">Regulatory Affairs</span>
+                    </label>
+                    <label class="cursor-pointer">
+                        <input type="radio" name="specialization" value="pharmaceutics" class="peer sr-only">
+                        <span class="px-4 py-2 rounded-full text-xs md:text-sm font-medium bg-white border border-slate-300 text-slate-600 peer-checked:bg-indigo-600 peer-checked:text-white peer-checked:border-indigo-600 hover:bg-slate-50 transition-colors shadow-sm block">Pharmaceutics</span>
+                    </label>
+                    <label class="cursor-pointer">
+                        <input type="radio" name="specialization" value="pharmacology" class="peer sr-only">
+                        <span class="px-4 py-2 rounded-full text-xs md:text-sm font-medium bg-white border border-slate-300 text-slate-600 peer-checked:bg-indigo-600 peer-checked:text-white peer-checked:border-indigo-600 hover:bg-slate-50 transition-colors shadow-sm block">Pharmacology</span>
+                    </label>
+                    <label class="cursor-pointer">
+                        <input type="radio" name="specialization" value="pharmaceutical-chemistry" class="peer sr-only">
+                        <span class="px-4 py-2 rounded-full text-xs md:text-sm font-medium bg-white border border-slate-300 text-slate-600 peer-checked:bg-indigo-600 peer-checked:text-white peer-checked:border-indigo-600 hover:bg-slate-50 transition-colors shadow-sm block">Pharmaceutical Chemistry</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                <div class="table-container overflow-x-auto">
+                    <table class="min-w-full divide-y divide-slate-200" id="collegesTable">
+                        <thead class="bg-slate-100">
+                            <tr>
+                                <th scope="col" class="px-6 py-4 text-left text-xs font-semibold text-slate-700 uppercase tracking-wider whitespace-nowrap">Dynamic Rank</th>
+                                <th scope="col" class="px-6 py-4 text-left text-xs font-semibold text-slate-700 uppercase tracking-wider">Institution Name</th>
+                                <th scope="col" class="px-6 py-4 text-left text-xs font-semibold text-slate-700 uppercase tracking-wider whitespace-nowrap">Location</th>
+                                <th scope="col" class="px-6 py-4 text-right text-xs font-semibold text-slate-700 uppercase tracking-wider min-w-[150px]">Total Tuition Fees (2 Yrs)</th>
+                                <th scope="col" class="px-6 py-4 text-right text-xs font-semibold text-slate-700 uppercase tracking-wider min-w-[150px]">Tuition + Hostel (2 Yrs)</th>
+                                <th scope="col" class="px-6 py-4 text-right text-xs font-semibold text-slate-700 uppercase tracking-wider min-w-[200px]">Total - GPAT Stipend</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-slate-200">
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="1" data-specs="pharmaceutics, pharmacology, pharmaceutical-chemistry, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">1</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Jamia Hamdard</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">New Delhi, Delhi</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 440,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 628,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 330,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="2" data-specs="pharmaceutics, pharmacology, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">2</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Birla Institute of Technology & Science (BITS)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Pilani, Rajasthan</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 1,144,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 1,288,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 990,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="3" data-specs="pharmaceutics, pharmacology, pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">3</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Panjab University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Chandigarh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 62,830</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 82,830</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 214,770 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="4" data-specs="pharmaceutics, pharmacology, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">4</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">JSS College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Ooty, Tamil Nadu</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 612,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 772,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 474,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="5" data-specs="pharmaceutics, pharmacology, pharmaceutical-chemistry, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">5</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">National Institute of Pharmaceutical Education and Research (NIPER)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Hyderabad, Telangana</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 176,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 245,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 52,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="6" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">6</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Institute of Chemical Technology (ICT)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mumbai, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 172,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 212,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 85,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="7" data-specs="pharmaceutics, pharmacology, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">7</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">JSS College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mysore, Karnataka</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 639,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 799,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 501,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="8" data-specs="pharmaceutics, pharmacology, pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">8</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Manipal College of Pharmaceutical Sciences</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Udupi, Karnataka</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 1,014,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 1,254,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 956,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="9" data-specs="pharmaceutics, pharmacology, pharmaceutical-chemistry, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">9</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">National Institute of Pharmaceutical Education and Research (NIPER)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mohali, Punjab</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 176,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 245,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 52,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="10" data-specs="pharmaceutics, pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">10</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">S.R.M. Institute of Science and Technology</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Chennai, Tamil Nadu</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 460,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 700,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 402,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="11" data-specs="pharmaceutics, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">11</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">SVKM`s Narsee Monjee Institute of Management Studies (NMIMS)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mumbai, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 760,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 1,260,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 962,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="12" data-specs="pharmacology, pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">12</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">National Institute of Pharmaceutical Education and Research (NIPER)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Guwahati, Assam</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 176,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 245,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 52,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="13" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">13</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Lovely Professional University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Phagwara, Punjab</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 480,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 715,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 417,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="14" data-specs="pharmacology, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">14</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Amrita Vishwa Vidyapeetham</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Coimbatore, Tamil Nadu</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 330,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 466,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 168,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="15" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">15</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Chandigarh University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mohali, Punjab</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 441,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 641,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 343,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="16" data-specs="pharmaceutics, pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">16</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Chitkara University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Rajpura, Punjab</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 410,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 570,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 272,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="17" data-specs="pharmaceutics, pharmacology, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">17</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">National Institute of Pharmaceutical Education and Research (NIPER)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Ahmedabad, Gujarat</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 176,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 245,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 52,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="18" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">18</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Amity University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Gautam Budh Nagar, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 288,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 458,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 160,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="19" data-specs="pharmaceutics, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">19</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Delhi Pharmaceutical Sciences and Research University (DPSRU)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">New Delhi, Delhi</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 160,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 247,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 50,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="20" data-specs="pharmaceutics, pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">20</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Central University of Punjab</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Bathinda, Punjab</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 20,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 60,400</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 237,200 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="21" data-specs="pharmacology, pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">21</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">National Institute of Pharmaceutical Education and Research (NIPER)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Raebareli, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 176,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 245,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 52,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="22" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">22</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Banasthali Vidyapith</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Banasthali, Rajasthan</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 280,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 402,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 104,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="23" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">23</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Babasaheb Bhimrao Ambedkar University (BBAU)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Lucknow, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 40,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 52,200</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 245,400 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="24" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">24</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Jadavpur University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Kolkata, West Bengal</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 96,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 102,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 195,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="25" data-specs="pharmaceutics, pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">25</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">I. S. F. College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Moga, Punjab</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 252,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 372,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 74,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="26" data-specs="pharmaceutics, pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">26</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Maharishi Markandeshwar</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Ambala, Haryana</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 240,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 380,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 82,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="27" data-specs="pharmacology, pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">27</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Central University of Rajasthan</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Kishangarh, Rajasthan</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 94,410</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 124,410</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 173,190 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="28" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">28</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Birla Institute of Technology (BIT Mesra)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Ranchi, Jharkhand</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 617,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 697,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 399,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="29" data-specs="pharmaceutics, pharmacology, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">29</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">National Institute of Pharmaceutical Education and Research (NIPER)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Kolkata, West Bengal</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 176,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 245,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 52,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="30" data-specs="pharmacology, pharmaceutical-chemistry, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">30</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">National Institute of Pharmaceutical Education and Research (NIPER)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Hajipur, Bihar</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 176,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 245,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 52,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="31" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">31</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">AU College of Pharmaceutical Sciences</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Visakhapatnam, Andhra Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 120,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 150,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 147,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="32" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">32</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Nirma University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Ahmedabad, Gujarat</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 880,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 1,060,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 762,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="33" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">33</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Gandhi Institute of Technology And Management (GITAM)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Visakhapatnam, Andhra Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 350,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 530,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 232,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="34" data-specs="pharmaceutics, pharmacology, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">34</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Poona College of Pharmacy, Pune</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Pune, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 493,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 693,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 395,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="35" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">35</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Dr D Y Patil Institute of Pharmaceutical Sciences</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Pune, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 631,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 811,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 513,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="36" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">36</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Sri Ramachandra Institute of Higher Education</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Chennai, Tamil Nadu</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 350,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 500,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 202,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="37" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">37</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Noida Institute of Engineering and Technology</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Greater Noida, UP</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 198,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 358,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 60,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="38" data-specs="pharmaceutics, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">38</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">SVKM`s Dr. Bhanuben Nanavati College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mumbai, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 351,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 601,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 303,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="39" data-specs="pharmaceutics, pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">39</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Suresh Gyan Vihar University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Jaipur, Rajasthan</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 240,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 390,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 92,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="40" data-specs="pharmacology, pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">40</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Integral University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Lucknow, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 200,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 360,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 62,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="41" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">41</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Parul University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Vadodara, Gujarat</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 300,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 450,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 152,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="42" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">42</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Annamalai University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Annamalainagar, Tamil Nadu</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 103,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 203,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 94,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="43" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">43</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Maharshi Dayanand University (MDU)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Rohtak, Haryana</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 48,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 68,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 229,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="44" data-specs="pharmaceutics, pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">44</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Shoolini University of Biotechnology</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Solan, Himachal Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 300,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 480,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 182,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="45" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">45</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">L. M. College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Ahmedabad, Gujarat</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 357,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 397,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 99,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="46" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">46</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Maharaja Sayajirao University of Baroda</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Vadodara, Gujarat</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 126,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 146,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 151,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="47" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">47</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Guru Ghasidas Vishwavidyalaya</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Bilaspur, Chhattisgarh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 102,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 132,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 165,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="48" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">48</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">G. L. A. University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mathura, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 340,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 500,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 202,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="49" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">49</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Guru Jambheshwar University of Science and Technology</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Hisar, Haryana</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 100,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 120,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 177,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="50" data-specs="pharmaceutics, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">50</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">KLE College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Belgaum, Karnataka</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 330,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 480,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 182,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="51" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">51</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">N.G.S.M. Institute of Pharmaceutical Sciences</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mangaluru, Karnataka</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 420,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 594,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 296,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="52" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">52</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">R. C. Patel Institute of Pharmaceutical Education and Research</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Shirpur, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 311,304</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 359,304</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 61,704</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="53" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">53</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Dibrugarh University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Dibrugarh, Assam</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 204,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 209,800</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 87,800 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="54" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">54</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">The Rashtrasant Tukadoji Maharaj Nagpur University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Nagpur, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 70,784</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 86,564</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 211,036 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="55" data-specs="pharmaceutics, pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">55</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Galgotias University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Gautam Budh Nagar, UP</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 220,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 540,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 242,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="56" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">56</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">M.S. Ramaiah University of Applied Sciences</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Bengaluru, Karnataka</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 600,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 690,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 392,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="57" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">57</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Sharda University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Greater Noida, UP</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 386,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 644,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 346,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="58" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">58</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">PSG College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Coimbatore, Tamil Nadu</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 280,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 430,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 132,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="59" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">59</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Mohan Lal Sukhadia University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Udaipur, Rajasthan</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 80,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 140,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 157,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="60" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">60</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Sri Padmavathi Mahila Visvavidyalayam</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Tirupati, Andhra Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 95,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 155,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 142,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="61" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">61</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Smt. Kishoritai Bhoyar College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Nagpur, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 260,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 380,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 82,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="62" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">62</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Kumaun University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Nainital, Uttarakhand</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 75,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 125,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 172,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="63" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">63</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Acharya Nagarjuna University College of Pharmaceutical Sciences</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Guntur, Andhra Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 110,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 170,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 127,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="64" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">64</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Vels Institute of Science Technology and Advanced Studies (VISTAS)</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Chennai, Tamil Nadu</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 210,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 360,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 62,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="65" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">65</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Nandha College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Erode, Tamil Nadu</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 240,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 360,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 62,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="66" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">66</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Chandigarh College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mohali, Punjab</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 220,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 340,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 42,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="67" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">67</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Krishna Vishwa Vidyapeeth</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Karad, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 320,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 480,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 182,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="70" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">70</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Gujarat Technological University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Ahmedabad, Gujarat</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 52,500</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 95,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 202,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="71" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">71</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Anurag University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Hyderabad, Telangana</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 250,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 400,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 102,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="72" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">72</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Dr. Vishwanath Karad MIT World Peace University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Pune, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 440,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 700,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 402,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="73" data-specs="pharmaceutics, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">73</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Bombay College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mumbai, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 268,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 468,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 170,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="74" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">74</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Guru Nanak Institute of Pharmaceutical Science and Technology</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Kolkata, West Bengal</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 310,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 430,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 132,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="75" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">75</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Bundelkhand University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Jhansi, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 120,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 180,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 117,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="76" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">76</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Y. B. Chavan College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Aurangabad, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 250,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 370,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 72,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="77" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">77</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">KIET School of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Ghaziabad, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 280,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 460,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 162,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="78" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">78</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Chalathi Institute of Pharmaceutical Sciences</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Guntur, Andhra Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 190,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 290,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 7,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="79" data-specs="pharmaceutics, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">79</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Goa College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Panaji, Goa</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 60,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 110,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 187,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="80" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">80</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Al Ameen College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Bengaluru, Karnataka</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 350,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 520,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 222,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="81" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">81</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">B. C. Roy College of Pharmacy and Allied Health Sciences</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Durgapur, West Bengal</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 320,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 450,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 152,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="82" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">82</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">CMR College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Hyderabad, Telangana</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 240,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 380,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 82,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="83" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">83</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">P. E. Society's Modern College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Pune, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 230,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 350,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 52,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="84" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">84</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Principal K.M. Kundnani College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mumbai, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 70,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 150,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 147,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="85" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">85</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Krupanidhi College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Bengaluru, Karnataka</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 400,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 600,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 302,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="86" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">86</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">C.U.Shah College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mumbai, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 290,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 450,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 152,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="87" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">87</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Chatrapati Sahuji Maharaj Kanpur University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Kanpur, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 150,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 230,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 67,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="88" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">88</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Dadasaheb Balpande College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Nagpur, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 210,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 320,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 22,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="89" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">89</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Dharmsinh Desai University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Nadiad, Gujarat</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 240,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 340,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 42,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="90" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">90</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">G. D. Goenka University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Gurugram, Haryana</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 380,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 620,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 322,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="91" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">91</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Ganpat University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Mehsana, Gujarat</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 270,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 420,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 122,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="92" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">92</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Girijananda Chowdhury Institute of Pharmaceutical Science</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Guwahati, Assam</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 250,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 380,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 82,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="93" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">93</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Glocal University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Saharanpur, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 210,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 350,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 52,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="94" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">94</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Gokaraju Rangaraju College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Hyderabad, Telangana</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 220,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 370,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 72,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="95" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">95</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">IES Institute of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Bhopal, Madhya Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 200,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 330,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 32,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="96" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">96</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">IFTM University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Moradabad, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 210,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 350,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 52,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="97" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">97</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">JIS University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Kolkata, West Bengal</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 320,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 480,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 182,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="98" data-specs="pharmacology, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">98</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">KLE College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Bengaluru, Karnataka</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 400,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 580,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 282,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="99" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">99</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">KLE College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Hubballi, Karnataka</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 360,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 520,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 222,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="100" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">100</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">KMCH College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Coimbatore, Tamil Nadu</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 280,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 440,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 142,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="101" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">101</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Kurukshetra University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Kurukshetra, Haryana</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 80,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 140,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 157,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="102" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">102</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Lloyd Institute of Management and Technology</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Greater Noida, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 220,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 380,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 82,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="103" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">103</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Mahatama Jyotiba Phule Rohikhand University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Bareilly, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 100,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 170,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 127,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="104" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">104</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Malla Reddy College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Secunderabad, Telangana</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 250,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 400,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 102,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="105" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">105</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Marathwada Mitra Mandal’s College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Pune, Maharashtra</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 270,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 410,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 112,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="106" data-specs="pharmaceutics">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">106</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Raghavendra Institute of Pharmaceuatical Education & Research</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Anantapuramu, AP</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 210,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 330,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-900 font-semibold text-right">₹ 32,400</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="107" data-specs="pharmacology">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">107</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Sri Venkateswara University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Tirupati, Andhra Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 70,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 130,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 167,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="108" data-specs="pharmaceutical-chemistry">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">108</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Uttar Pradesh University of Medical Sciences</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Etawah, Uttar Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 90,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 160,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 137,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors" data-original-rank="109" data-specs="pharmaceutics, regulatory-affairs">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900 text-center dynamic-rank">109</td>
+                                <td class="px-6 py-4 text-sm text-slate-700 font-medium">Bapatla College of Pharmacy</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">Bapatla, Andhra Pradesh</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 180,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600 text-right">₹ 290,000</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold text-right">- ₹ 7,600 <br><span class="text-xs font-normal">(Surplus)</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div id="noResults" class="hidden p-8 text-center text-slate-500">
+                    No colleges found matching your search criteria.
+                </div>
+                
+                <div class="bg-slate-50 p-4 border-t border-slate-200 text-xs text-slate-500">
+                    *Note: The GPAT stipend calculation assumes a standard AICTE disbursement of ₹ 12,400 per month over a 24-month M.Pharm program, totaling ₹ 297,600. NIPER institutes accept GPAT qualified candidates via their NIPER-JEE entrance exam.
+                </div>
+            </div>
+        </div>
+
+        <!-- VIEW 3: WORLD RANKINGS (Initially Hidden) -->
+        <div id="worldRankingsView" class="hidden fade-in space-y-8">
+            <header class="relative text-center space-y-4 pt-8 md:pt-4">
+                <button id="backToHomeFromWorldBtn" class="absolute left-0 top-4 md:top-0 flex items-center text-slate-500 hover:text-emerald-600 font-medium transition-colors bg-white px-4 py-2 rounded-lg border border-slate-200 shadow-sm hover:shadow">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+                    Back to GPAT Guide
+                </button>
+                <h1 class="text-3xl md:text-4xl font-bold text-slate-900 pt-14 md:pt-0">Top 50 M.Pharm Colleges in the World</h1>
+                <p class="text-slate-600 max-w-2xl mx-auto">Global rankings for elite pharmaceutical programs.</p>
+            </header>
+            
+            <div class="max-w-4xl mx-auto bg-white p-12 rounded-3xl shadow-sm border border-slate-200 text-center mt-8">
+                <span class="text-6xl mb-4 block">🌍</span>
+                <h2 class="text-2xl font-bold text-slate-800 mb-2">Global Rankings Data Assembly</h2>
+                <p class="text-slate-500">We are currently compiling the latest QS World University Rankings and fee structures for the top 50 pharmacy colleges globally. Check back shortly!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- College Details Modal -->
+    <div id="collegeModal" class="fixed inset-0 z-50 hidden overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <!-- Backdrop -->
+        <div id="modalBackdrop" class="fixed inset-0 bg-slate-900/40 backdrop-blur-sm transition-opacity duration-300 ease-out opacity-0"></div>
+        
+        <!-- Modal Panel -->
+        <div class="flex min-h-screen items-center justify-center p-4 text-center sm:p-0">
+            <div id="modalPanel" class="relative transform overflow-hidden rounded-2xl bg-white text-left shadow-2xl transition-all duration-300 ease-out sm:my-8 w-full max-w-3xl border border-slate-200 opacity-0 translate-y-8 sm:translate-y-0 sm:scale-95">
+                
+                <!-- Header -->
+                <div class="bg-white px-6 py-5 border-b border-slate-100 flex justify-between items-center sticky top-0 z-10">
+                    <div>
+                        <div class="flex items-center gap-3 mb-1">
+                            <span id="modalRank" class="inline-flex items-center justify-center bg-indigo-100 text-indigo-700 text-xs font-bold px-2.5 py-1 rounded-md">Rank #1</span>
+                            <span id="modalLocation" class="text-sm font-medium text-slate-500 flex items-center">
+                                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                Location
+                            </span>
+                        </div>
+                        <h3 class="text-2xl font-bold leading-6 text-slate-900" id="modalTitle">College Name</h3>
+                    </div>
+                    <button id="closeModalIcon" class="text-slate-400 hover:bg-slate-100 hover:text-slate-600 rounded-full p-2 transition-colors focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Body -->
+                <div class="px-6 py-6 max-h-[65vh] overflow-y-auto custom-scrollbar">
+                    
+                    <!-- Short Details / About Section -->
+                    <div class="mb-8">
+                        <h4 class="text-sm font-bold tracking-wider text-slate-400 uppercase mb-3">Institution Overview</h4>
+                        <p class="text-slate-700 leading-relaxed text-sm md:text-base bg-slate-50 p-4 rounded-xl border border-slate-100" id="modalDesc">
+                            This institution is widely recognized as one of the premier destinations for pharmaceutical education in India. It offers state-of-the-art laboratory infrastructure, highly qualified faculty, and strong industry partnerships, making it a highly sought-after choice for candidates pursuing an M.Pharm degree with a GPAT qualification.
+                        </p>
+                    </div>
+
+                    <!-- Detailed Fee Breakdown -->
+                    <div>
+                        <h4 class="text-sm font-bold tracking-wider text-slate-400 uppercase mb-3">Comprehensive Fee Breakdown (M.Pharm - 2 Years)</h4>
+                        <div id="modalFeeDetails" class="space-y-6">
+                            <!-- Dynamic fee table gets injected here via JS -->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Footer -->
+                <div class="bg-slate-50 px-6 py-4 flex flex-row-reverse border-t border-slate-200">
+                    <button type="button" id="closeModalBtn" class="inline-flex w-full justify-center rounded-xl bg-slate-900 px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 transition-colors sm:w-auto focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-900">Close Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Counselor Chatbot -->
+    <div id="aiChatWidget" class="fixed bottom-6 right-6 z-50 flex flex-col items-end">
+        <!-- Chat Window -->
+        <div id="aiChatWindow" class="hidden w-[90vw] sm:w-96 bg-white rounded-2xl shadow-2xl border border-slate-200 mb-4 overflow-hidden flex-col h-[500px] max-h-[70vh] transition-all duration-300 origin-bottom-right transform scale-95 opacity-0">
+            <!-- Header -->
+            <div class="bg-indigo-600 px-4 py-3 flex justify-between items-center text-white">
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    <span class="font-semibold text-sm">GPAT AI Counselor</span>
+                </div>
+                <button id="closeChatBtn" class="text-indigo-200 hover:text-white transition-colors focus:outline-none">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            
+            <!-- Messages Area -->
+            <div id="aiChatMessages" class="flex-1 p-4 overflow-y-auto bg-slate-50 space-y-4 text-sm flex flex-col custom-scrollbar">
+                <div class="bg-white border border-slate-200 text-slate-700 p-3 rounded-2xl rounded-tl-sm shadow-sm self-start max-w-[85%] leading-relaxed">
+                    Hello! 👋 I'm your AI GPAT counselor. Ask me anything about exam prep, M.Pharm specializations, or pharmacy career prospects!
+                </div>
+            </div>
+            
+            <!-- Loading Indicator -->
+            <div id="aiChatLoading" class="hidden px-4 pb-2 text-xs text-indigo-400 font-medium bg-slate-50 animate-pulse">
+                AI is typing...
+            </div>
+            
+            <!-- Input Area -->
+            <div class="p-3 bg-white border-t border-slate-200 flex gap-2">
+                <input type="text" id="aiChatInput" class="flex-1 border border-slate-300 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-shadow" placeholder="Ask a question...">
+                <button id="sendChatBtn" class="bg-indigo-600 text-white p-2 rounded-xl hover:bg-indigo-700 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 shadow-sm">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Floating Button -->
+        <button id="toggleChatBtn" class="bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-full shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-indigo-300 group flex items-center gap-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+            <span class="font-bold text-sm hidden sm:inline group-hover:inline-block">AI Assistant</span>
+        </button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // --- VIEW TRANSITION LOGIC ---
+            const landingView = document.getElementById('landingView');
+            const rankingsView = document.getElementById('rankingsView');
+            const worldRankingsView = document.getElementById('worldRankingsView');
+            const goToRankingsBtn = document.getElementById('goToRankingsBtn');
+            const goToWorldRankingsBtn = document.getElementById('goToWorldRankingsBtn');
+            const backToHomeBtn = document.getElementById('backToHomeBtn');
+            const backToHomeFromWorldBtn = document.getElementById('backToHomeFromWorldBtn');
+
+            goToRankingsBtn.addEventListener('click', () => {
+                landingView.classList.add('hidden');
+                rankingsView.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                // Re-apply filters just to be safe when opening the view
+                applyFilters(); 
+            });
+
+            goToWorldRankingsBtn.addEventListener('click', () => {
+                landingView.classList.add('hidden');
+                worldRankingsView.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            backToHomeBtn.addEventListener('click', () => {
+                rankingsView.classList.add('hidden');
+                landingView.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            backToHomeFromWorldBtn.addEventListener('click', () => {
+                worldRankingsView.classList.add('hidden');
+                landingView.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+
+            // --- TABLE SEARCH & FILTER LOGIC ---
+            const searchInput = document.getElementById('searchInput');
+            const radios = document.querySelectorAll('input[name="specialization"]');
+            const table = document.getElementById('collegesTable');
+            const tbody = table.querySelector('tbody');
+            const rows = tbody.querySelectorAll('tr');
+            const noResults = document.getElementById('noResults');
+
+            function applyFilters() {
+                const searchTerm = searchInput.value.toLowerCase();
+                const activeSpec = document.querySelector('input[name="specialization"]:checked').value;
+                
+                let visibleCount = 1; // This tracks the dynamic visual rank
+                let hasVisibleRows = false;
+
+                rows.forEach(row => {
+                    const originalRank = row.dataset.originalRank ? row.dataset.originalRank.toLowerCase() : "";
+                    const name = row.cells[1].textContent.toLowerCase();
+                    const location = row.cells[2].textContent.toLowerCase();
+                    
+                    // Search check
+                    const matchesSearch = originalRank.includes(searchTerm) || name.includes(searchTerm) || location.includes(searchTerm);
+                    
+                    // Specialization pill check
+                    const rowSpecs = row.dataset.specs || "";
+                    const matchesSpec = (activeSpec === 'all') || rowSpecs.includes(activeSpec);
+
+                    if (matchesSearch && matchesSpec) {
+                        row.style.display = '';
+                        // Update the dynamic rank so there are NO GAPS
+                        row.querySelector('.dynamic-rank').textContent = visibleCount;
+                        visibleCount++;
+                        hasVisibleRows = true;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+
+                if (hasVisibleRows) {
+                    noResults.classList.add('hidden');
+                    table.classList.remove('hidden');
+                } else {
+                    noResults.classList.remove('hidden');
+                    table.classList.add('hidden');
+                }
+            }
+
+            // Attach listeners to search bar and all radio pills
+            searchInput.addEventListener('keyup', applyFilters);
+            radios.forEach(radio => radio.addEventListener('change', applyFilters));
+            
+            // Initial filter run on load (safeguard)
+            applyFilters();
+
+
+            // --- MODAL LOGIC ---
+            const modal = document.getElementById('collegeModal');
+            const modalBackdrop = document.getElementById('modalBackdrop');
+            const modalPanel = document.getElementById('modalPanel');
+            const closeBtnIcon = document.getElementById('closeModalIcon');
+            const closeBtn = document.getElementById('closeModalBtn');
+            
+            const modalTitle = document.getElementById('modalTitle');
+            const modalRank = document.getElementById('modalRank');
+            const modalLocation = document.getElementById('modalLocation');
+            const modalFeeDetails = document.getElementById('modalFeeDetails');
+
+            tbody.addEventListener('click', (e) => {
+                const row = e.target.closest('tr');
+                if (!row) return;
+
+                // Grab data from the row
+                const originalRank = row.dataset.originalRank;
+                const dynamicRank = row.querySelector('.dynamic-rank').textContent; // Show the current filtered rank
+                const name = row.cells[1].textContent.trim();
+                const location = row.cells[2].textContent.trim();
+                const tuitionStr = row.cells[3].textContent.trim();
+                const totalStr = row.cells[4].textContent.trim();
+                
+                modalTitle.textContent = name;
+                modalRank.textContent = `Rank #${dynamicRank} (NIRF #${originalRank})`;
+                modalLocation.innerHTML = `<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>${location}`;
+                
+                modalFeeDetails.innerHTML = generateDetailedBreakdown(tuitionStr, totalStr);
+
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden'; 
+                
+                void modal.offsetWidth;
+
+                modalBackdrop.classList.remove('opacity-0');
+                modalBackdrop.classList.add('opacity-100');
+                
+                modalPanel.classList.remove('opacity-0', 'translate-y-8', 'sm:scale-95');
+                modalPanel.classList.add('opacity-100', 'translate-y-0', 'sm:scale-100');
+            });
+
+            const closeModal = () => {
+                modalBackdrop.classList.remove('opacity-100');
+                modalBackdrop.classList.add('opacity-0');
+                
+                modalPanel.classList.remove('opacity-100', 'translate-y-0', 'sm:scale-100');
+                modalPanel.classList.add('opacity-0', 'translate-y-8', 'sm:scale-95');
+                
+                setTimeout(() => {
+                    modal.classList.add('hidden');
+                    document.body.style.overflow = '';
+                }, 300);
+            };
+
+            closeBtnIcon.addEventListener('click', closeModal);
+            closeBtn.addEventListener('click', closeModal);
+            modalBackdrop.addEventListener('click', closeModal);
+
+            // Utility to generate breakdown
+            function generateDetailedBreakdown(tuitionStr, totalStr) {
+                const extractNum = (str) => parseInt(str.replace(/[^0-9-]/g, '')) || 0;
+                let tuition = extractNum(tuitionStr);
+                let total = extractNum(totalStr);
+                
+                const formatMoney = (amount) => {
+                    if (amount < 0) return `- ₹ ${Math.abs(amount).toLocaleString('en-IN')}`;
+                    return `₹ ${amount.toLocaleString('en-IN')}`;
+                };
+
+                let hostel = total - Math.abs(tuition);
+                if (hostel < 0) hostel = 0;
+
+                const baseTuition = Math.max(0, tuition - 25000); 
+
+                return `
+                    <div class="overflow-hidden rounded-xl border border-slate-200 shadow-sm">
+                        <table class="min-w-full divide-y divide-slate-200">
+                            <tbody class="divide-y divide-slate-200 bg-white">
+                                <tr>
+                                    <td class="px-5 py-3 text-sm font-bold text-slate-800 bg-slate-50 uppercase tracking-wide" colspan="2">1. Academic Fees (4 Semesters)</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition-colors">
+                                    <td class="px-5 py-3 text-sm text-slate-600 pl-8">Admission Fee (One-time, non-refundable)</td>
+                                    <td class="px-5 py-3 text-sm text-slate-900 text-right font-medium">₹ 10,000</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition-colors">
+                                    <td class="px-5 py-3 text-sm text-slate-600 pl-8">Base Tuition Fee (Per Semester)</td>
+                                    <td class="px-5 py-3 text-sm text-slate-900 text-right font-medium">${formatMoney(Math.floor(baseTuition / 4))}</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition-colors">
+                                    <td class="px-5 py-3 text-sm text-slate-600 pl-8">Library & Laboratory Fees (Per Semester)</td>
+                                    <td class="px-5 py-3 text-sm text-slate-900 text-right font-medium">₹ 2,500</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition-colors">
+                                    <td class="px-5 py-3 text-sm text-slate-600 pl-8">Examination & Registration (Per Semester)</td>
+                                    <td class="px-5 py-3 text-sm text-slate-900 text-right font-medium">₹ 1,250</td>
+                                </tr>
+                                <tr class="bg-blue-50/50">
+                                    <td class="px-5 py-4 text-sm font-semibold text-slate-800">Total Academic Fees (2 Years)</td>
+                                    <td class="px-5 py-4 text-sm font-bold text-blue-700 text-right">${tuitionStr}</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="px-5 py-3 text-sm font-bold text-slate-800 bg-slate-50 uppercase tracking-wide border-t-2 border-slate-200" colspan="2">2. Accommodation & Mess (2 Years)</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition-colors">
+                                    <td class="px-5 py-3 text-sm text-slate-600 pl-8">Hostel Room Rent (Per Year)</td>
+                                    <td class="px-5 py-3 text-sm text-slate-900 text-right font-medium">${formatMoney(Math.floor(hostel * 0.4 / 2))}</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition-colors">
+                                    <td class="px-5 py-3 text-sm text-slate-600 pl-8">Mess Charges / Dining (Per Year)</td>
+                                    <td class="px-5 py-3 text-sm text-slate-900 text-right font-medium">${formatMoney(Math.floor(hostel * 0.6 / 2))}</td>
+                                </tr>
+                                <tr class="bg-blue-50/50">
+                                    <td class="px-5 py-4 text-sm font-semibold text-slate-800">Total Hostel & Mess (2 Years)</td>
+                                    <td class="px-5 py-4 text-sm font-bold text-blue-700 text-right">${formatMoney(hostel)}</td>
+                                </tr>
+
+                                <tr class="bg-slate-800 text-white">
+                                    <td class="px-5 py-4 text-base font-bold">Gross Total Payable to College</td>
+                                    <td class="px-5 py-4 text-base font-bold text-right">${totalStr}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="mt-6 p-5 bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl border border-green-200 shadow-sm">
+                        <div class="flex items-center gap-2 mb-3">
+                            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <h5 class="text-sm font-bold text-green-900 uppercase tracking-wide">GPAT Financial Benefit Analysis</h5>
+                        </div>
+                        
+                        <div class="space-y-2">
+                            <p class="text-sm text-green-800 flex justify-between">
+                                <span>Gross Institutional Fees:</span>
+                                <span>${totalStr}</span>
+                            </p>
+                            <p class="text-sm text-green-800 flex justify-between border-b border-green-200 pb-2">
+                                <span>AICTE PG Stipend (₹12,400 × 24 Months):</span>
+                                <span class="font-semibold text-green-700">- ₹ 297,600</span>
+                            </p>
+                            <div class="pt-2 flex justify-between items-center">
+                                <span class="text-sm font-bold text-green-900">Net Estimated Cost / Surplus:</span>
+                                <span class="text-xl font-black ${total - 297600 < 0 ? 'text-green-600' : 'text-slate-900'}">
+                                    ${total - 297600 < 0 ? formatMoney(total - 297600) + ' <span class="text-xs font-normal">(Surplus)</span>' : formatMoney(total - 297600)}
+                                </span>
+                            </div>
+                            ${total - 297600 < 0 ? `
+                                <p class="mt-4 text-xs text-green-800 bg-green-200/50 p-3 rounded-lg leading-relaxed border border-green-200">
+                                    <strong>What is a Surplus?</strong> A surplus indicates that the total GPAT stipend you receive over 24 months completely offsets the cost of tuition and hostel fees for the program, leaving you with extra funds.
+                                </p>
+                            ` : ''}
+                        </div>
+                    </div>
+                    
+                    <p class="text-[11px] text-slate-400 mt-4 leading-tight">*Disclaimer: The semester-wise splits, mess charges, and one-time deposits above are algorithmically estimated breakdowns based on the total reported tuition and hostel fees for illustrative purposes. Actual fee structures and heads vary by institution. Please consult the specific college's official admission brochure for precise figures.</p>
+                `;
+            }
+
+            // --- AI COUNSELOR CHATBOT LOGIC ---
+            const chatWidget = document.getElementById('aiChatWidget');
+            const chatWindow = document.getElementById('aiChatWindow');
+            const toggleChatBtn = document.getElementById('toggleChatBtn');
+            const closeChatBtn = document.getElementById('closeChatBtn');
+            const chatInput = document.getElementById('aiChatInput');
+            const sendChatBtn = document.getElementById('sendChatBtn');
+            const chatMessages = document.getElementById('aiChatMessages');
+            const chatLoading = document.getElementById('aiChatLoading');
+
+            let chatHistory = [];
+
+            // Toggle visibility with smooth animation
+            function toggleChat() {
+                if (chatWindow.classList.contains('hidden')) {
+                    chatWindow.classList.remove('hidden');
+                    // Small delay to allow display:block to apply before animating opacity/scale
+                    setTimeout(() => {
+                        chatWindow.classList.remove('scale-95', 'opacity-0');
+                        chatWindow.classList.add('scale-100', 'opacity-100');
+                    }, 10);
+                    chatInput.focus();
+                } else {
+                    chatWindow.classList.remove('scale-100', 'opacity-100');
+                    chatWindow.classList.add('scale-95', 'opacity-0');
+                    setTimeout(() => {
+                        chatWindow.classList.add('hidden');
+                    }, 300);
+                }
+            }
+
+            toggleChatBtn.addEventListener('click', toggleChat);
+            closeChatBtn.addEventListener('click', toggleChat);
+
+            // Add a message bubble to the chat UI
+            function appendMessage(text, isUser) {
+                const msgDiv = document.createElement('div');
+                msgDiv.className = `p-3 rounded-2xl shadow-sm text-sm max-w-[85%] leading-relaxed ${
+                    isUser 
+                    ? 'bg-indigo-600 text-white self-end rounded-tr-sm' 
+                    : 'bg-white border border-slate-200 text-slate-700 self-start rounded-tl-sm'
+                }`;
+                
+                // Extremely basic markdown formatting for bold and new lines
+                let formattedText = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                formattedText = formattedText.replace(/\*/g, '•'); // Bullet points
+                formattedText = formattedText.replace(/\n/g, '<br>');
+                
+                msgDiv.innerHTML = formattedText;
+                chatMessages.appendChild(msgDiv);
+                
+                // Auto-scroll to bottom
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            // Connect to Gemini API and get response
+            async function sendMessage() {
+                const text = chatInput.value.trim();
+                if (!text) return;
+
+                // 1. Add user message to UI
+                appendMessage(text, true);
+                chatInput.value = '';
+                
+                // 2. Add to conversation history
+                chatHistory.push({ role: "user", parts: [{ text: text }] });
+
+                // 3. Show loading indicator
+                chatLoading.classList.remove('hidden');
+
+                // 4. API Configuration (API Key is handled automatically by the environment)
+                const apiKey = ""; 
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+                
+                const systemPrompt = "You are an expert counselor for pharmacy students in India. You help them with GPAT exam details, college selection (like NIPERs, Jamia Hamdard, BITS), M.Pharm specializations (Pharmaceutics, Pharmacology, Regulatory Affairs, etc.), and career guidance. Keep answers concise, highly encouraging, helpful, and keep formatting simple (use markdown for bolding). Keep responses under 2-3 short paragraphs.";
+
+                const payload = {
+                    contents: chatHistory,
+                    systemInstruction: { parts: [{ text: systemPrompt }] }
+                };
+
+                try {
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    const result = await response.json();
+                    
+                    if (result.candidates && result.candidates.length > 0) {
+                        const aiText = result.candidates[0].content.parts[0].text;
+                        
+                        // Add AI response to history
+                        chatHistory.push({ role: "model", parts: [{ text: aiText }] });
+                        
+                        // Add AI response to UI
+                        appendMessage(aiText, false);
+                    } else {
+                        appendMessage("Sorry, I encountered an issue parsing the response. Please try again.", false);
+                    }
+                } catch (error) {
+                    console.error("Chat API Error:", error);
+                    appendMessage("Failed to connect to the counselor network. Please check your connection.", false);
+                } finally {
+                    // Hide loading indicator
+                    chatLoading.classList.add('hidden');
+                }
+            }
+
+            // Bind send events
+            sendChatBtn.addEventListener('click', sendMessage);
+            chatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') sendMessage();
+            });
+        });
+    </script>
+</body>
+</html>
